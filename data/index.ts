@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    // { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -21,7 +21,7 @@ export const navItems = [
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "w-full h-full",
+      imgClassName: "w-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a SAAS Platform",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -75,7 +75,7 @@ export const navItems = [
       title: "Kindred - Psychology at work",
       des: "I had the pleasure of working with the Kindred team to redesign their website and build it on Squaresace",
       img: "kindred.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: [ "/squarespace.svg", "/js.svg"],
       link: "https://www.kindred.work/",
     },
     {
@@ -83,15 +83,15 @@ export const navItems = [
       title: "Holloware - CMS App",
       des: "Buy, share or sell your ceramic goods with Holloware App. Created with Node.js, MongoDb, html, css and javascript",
       img: "holloware.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/Dow-Dodds/holloware-backend/blob/main/index.js",
+      iconLists: ["/mongodb.svg", "/js.svg", "/gulp.svg", "/sass.svg", "/node.svg"],
+      link: "https://github.com/Rebscallion/Summative-3-Holloware/tree/main",
     },
     {
       id: 3,
       title: "Wanderland Accomodation App",
       des: "Plan your ideal holiday in New Zealand with Wanderland App, built using html, css and javascript + external libraries (mapbox, parsley validation, swiper).",
       img: "wanderland.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/uxui.svg", "/js.svg", "/sass.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Planet Magic",
       des: "Magic the Gathering CMS App where users can add cards to create their dream deck",
       img: "magic.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/js.svg", "/sass.svg"],
       link: "https://magic-card-deck-builder.vercel.app/",
     },
   ];
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Developer",
+      desc: "At Juvare I collaboratd with large governemt agencies to design workflows and solutions for complex processes to aid emergncy management Services in the WebEOC platform",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Freelance UX/UI Designer and Web Developer",
+      desc: "Completed the full UX research and design process for Kindred and implemented the solution in Squarespace with custome javscript and css",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Customer Success Lead",
+      desc: "I was the Customer Success Lead for Figured as we launched into the UK and Ireland, whilst in this position we achieved our macro goal of becoming the 2nd biggest market for the company",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Customer Success Manager",
+      desc: "At Kiplot I managed the relationship with  large bank, whilst I was there we migrated them from spreadsheets to a new system n our platform to manage their project lifecycle",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -204,14 +204,14 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
+      des: "github",
       img: "/git.svg",
+      link: "https://github.com/Dow-Dodds"
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
+      des: "linkedIn",
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/dowdodds/"
     },
   ];

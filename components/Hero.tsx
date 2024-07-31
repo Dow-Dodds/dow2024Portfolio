@@ -46,7 +46,7 @@ const Hero = () => {
             />
 
             <p className='text-center md:tracking-wider mb-4 text-small md:text-lg lg:text-2xl'>
-              Hi, I&apos;m Dow, a Next.js Developer based in Naarm/Melbourne 
+              Hi, I&apos;m Dow, a Front End Developer based in Naarm/Melbourne 
             </p>
             
             <a href="#about">
