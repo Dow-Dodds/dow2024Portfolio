@@ -8,8 +8,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I am very flexible with time zone communications",
-      description: "6 years experience working within Global teams",
+      title: "6 years experience working within Global teams",
+      description: "I am very flexible communicating through different time zones",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "",
       titleClassName: "justify-start",
