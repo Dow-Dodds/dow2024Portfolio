@@ -92,7 +92,7 @@ export const navItems = [
       des: "Plan your ideal holiday in New Zealand with Wanderland App, built using html, css and javascript + external libraries (mapbox, parsley validation, swiper).",
       img: "wanderland.png",
       iconLists: ["/uxui.svg", "/js.svg", "/sass.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://wanderland-app.vercel.app/",
     },
     {
       id: 4,
